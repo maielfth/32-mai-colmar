@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+--root{
+    --bg:white;
+    --bg2:lightgray;
+    --button:grey;
+   --text:black;
+}
+
+.button{
+    padding: 8px 20px;
+    background-color: grey;
+    transition: ease 0.3s all;
+        
+    }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: auto;
+}
+ header{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    width: auto;
+    background-color: red;
+    margin: auto;
+    max-width: 1440px;
+    }   
+.logo{
+             /* display: flex;
+            justify-content: center; */
+            align-items: center;
+            margin-left: 24px;
+            margin-top: 16px;
+            margin-bottom: 16px;
+            height: 32px;
+            width: auto;
+            font-size: 32px;
+            text-decoration: none;
+            color: var(--text);
+            
+                @media(max-width: 768px){
+                    display: none;
+                }
+ }               
+        
+        
+
+.mobile-logo{
+    display: none;
+        @media(max-width: 768px){
+            display: flex;
+            flex-direction: row;
+        }
+ }
+
+ #menu{
+    margin-right: 24px;
+    height: 64px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    list-style-type: none;
+    color: var(--text);
+ }
+
+ .hero{
+    display: flex;
+    /* background-color: rgb(195, 0, 255) */
+ }
+
+ .hero-banner{
+    flex: 1;
+    display: flex;
+    margin: 32px 24px;
+    /* background-color: rgb(212, 0, 255); */
+    justify-content: center; */
+    align-items: center;
+    height: auto;
+    
+    img{
+        width: 100%;
+        object-fit: cover;
+        overflow: hidden;
+
+    }
+
+ }
+
+ .hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 24px;
+    margin-right: 150px;
+    flex: 1;
+    word-spacing: 2px;   
+}
+
+ h1{
+       font-size: 65px;
+       word-spacing: 2px;
+    }
+
+ h4{
+        font-size: 30px;
+        word-spacing: 2px;
+    }    
+ 
